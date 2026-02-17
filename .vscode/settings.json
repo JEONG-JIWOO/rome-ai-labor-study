@@ -1,0 +1,31 @@
+{
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  "markdown.extension.toc.updateOnSave": true,
+  "markdown.extension.list.indentationSize": "inherit",
+
+  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "foam.openDailyNote.directory": "05-journal",
+  "foam.openDailyNote.fileNameFormat": "yyyy-mm-dd",
+
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "QUESTION",
+    "REVIEW",
+    "HYPOTHESIS"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "QUESTION": {
+      "icon": "question",
+      "foreground": "#f0ad4e"
+    },
+    "HYPOTHESIS": {
+      "icon": "beaker",
+      "foreground": "#5bc0de"
+    }
+  }
+}
